@@ -39,8 +39,8 @@ This repository contains spectral, photodegradation, and kinetics datasets from 
 
 | Sheet | Treatment | Time Points | Interval |
 |-------|-----------|-------------|----------|
-| ICE | Imacoff — cold/dark exposure | 0–120 min | 10 min |
-| LCE | Lunahist — cold/dark exposure | 0–120 min | 10 min |
+| ICE | Imacoff — UV of BCG complex + H₂O₂  | 0–120 min | 10 min |
+| LCE | Tricoff —  UV of BCG complex + H₂O₂ | 0–120 min | 10 min |
 | EUVHO | Tricoff — UV + H₂O₂ | 0–180 min | 20 min |
 | HUVHO | Imacoff — UV + H₂O₂ | 0–160 min | 20 min |
 | FUVHO | Lacoff — UV + H₂O₂ | 0–180 min | 20 min |
@@ -95,7 +95,7 @@ This dataset supports the investigation of photodegradation kinetics of **Diphen
 - All measurements are in absorbance units (A.U.)
 - Wavelength range: 200–800 nm (PCA data); 1100–200 nm (photodegradation profiles)
 - Some cells in the photodegradation profiles are marked `--` indicating instrument out-of-range readings at those time points
-- Software recommended: Python (pandas, scikit-learn, matplotlib), R, or Excel
+- Software recommended: Python (pandas, scikit-learn, matplotlib) or Origin
 
 ---
 
