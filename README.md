@@ -1,6 +1,6 @@
 # Diphenhydramine Photodegradation & Kinetics Study
 
-This repository contains spectral, photodegradation, and kinetics datasets from a study on the photodegradation of **Diphenhydramine (DPH)** under various UV and chemical treatment conditions.
+This repository contains spectral, photodegradation profiles, and kinetics datasets from a study on the photodegradation of **Diphenhydramine** under various UV and chemical treatment conditions.
 
 ---
 
@@ -9,7 +9,7 @@ This repository contains spectral, photodegradation, and kinetics datasets from 
 ```
 ├── README.md
 ├── data/
-│   ├── Diphenhydaramine_PCA_data.xlsx         # UV-Vis spectral data for PCA (post-expiry, standard, within-expiry samples)
+│   ├── Diphenhydaramine_data.xlsx         # UV-Vis spectral data for PCA (post-expiry, standard, within-expiry samples)
 │   ├── Photodegradation_profiles_data.xlsx    # Time-resolved spectral degradation profiles (UV and UV/H₂O₂ treatments)
 │   └── Kinetics_data.xlsx                     # Zero, first, and second order kinetic data
 ```
@@ -18,7 +18,7 @@ This repository contains spectral, photodegradation, and kinetics datasets from 
 
 ## 📊 Dataset Descriptions
 
-### 1. `Diphenhydaramine_PCA_data.xlsx` — PCA Spectral Data
+### 1. `Diphenhydaramine_data.xlsx` — PCA Spectral Data
 
 - **Sheets:** Sheet1 (data), Sheet2 (empty), Sheet3 (empty)
 - **Description:** UV-Vis absorbance spectra (wavelength 200–800 nm) of Diphenhydramine samples across three categories — **Post-expiry**, **Standard**, and **Within-expiry** — used for Principal Component Analysis (PCA) to examine spectral variability and classify sample groups.
@@ -39,8 +39,8 @@ This repository contains spectral, photodegradation, and kinetics datasets from 
 
 | Sheet | Treatment | Time Points | Interval |
 |-------|-----------|-------------|----------|
-| ICE | Imacoff — UV of BCG complex + H₂O₂  | 0–120 min | 10 min |
-| LCE | Tricoff —  UV of BCG complex + H₂O₂ | 0–120 min | 10 min |
+| ICE | Imacoff — BCG ion pair complex + UV  | 0–120 min | 10 min |
+| LCE | Tricoff —  BCG ion pair complex + UV | 0–120 min | 10 min |
 | EUVHO | Tricoff — UV + H₂O₂ | 0–180 min | 20 min |
 | HUVHO | Imacoff — UV + H₂O₂ | 0–160 min | 20 min |
 | FUVHO | Lacoff — UV + H₂O₂ | 0–180 min | 20 min |
